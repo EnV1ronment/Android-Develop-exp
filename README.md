@@ -1,5 +1,5 @@
 # Android-Develop-exp
-对于Gradle 7+版本中的不安全HTTP连接，我们需要指定布尔allowInsecureProtocol作为MavenArtifactRepository闭包的true。
+在Gradle 7+版本中，不安全HTTP连接，需要我们指定布尔allowInsecureProtocol。
 maven {
     allowInsecureProtocol = true
     ...      
