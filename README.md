@@ -4,3 +4,5 @@ maven {
     allowInsecureProtocol = true
     ...      
 }
+
+超出容器外部的点击事件不会响应
