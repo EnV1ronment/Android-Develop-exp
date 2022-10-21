@@ -47,3 +47,6 @@ Event
 1.需要前端设置监听器
 2.主动反馈不可过度且频繁，从使用上来看，过度频繁后会导致设备出现宕机状态，具体原因待分析
 3.不建议设置过多事件监听器
+
+
+使用navigator.geolocation.getCurrentPosition 获取android定位时 不采用高精度定位 enableHighAccuracy: false 容易超时影响用户体验
