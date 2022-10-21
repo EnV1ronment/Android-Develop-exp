@@ -50,3 +50,8 @@ Event
 
 
 使用navigator.geolocation.getCurrentPosition 获取android定位时 不采用高精度定位 enableHighAccuracy: false 容易超时影响用户体验
+# IOS-Develop-exp
+
+Could not launch app
+failed to get the task for process
+证书出了问题 使用自动配置证书可临时解决问题
