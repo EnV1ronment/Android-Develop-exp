@@ -1,0 +1,14 @@
+#RN如何使用原生的AndroidUI组件
+
+一、android端代码
+1.定义了一个androidUI组件
+2.封装ViewGroupManager，定义RN测调用组件的名字（XXXView），同时定义使用组件的Props及set方法
+3.打包成ReactPackage，添加到MainApplication里
+
+二、RN：
+1.定义一个RN组件（XXXX），作为原生组件（XXXView）的载体 const XXXView = requireNativeComponent('XXXView', XXXX) 在组件render里给XXXView传入Props，
+在组件方法里处理外部Props以及定义相对应的方法
+2.调用RN组件
+
+
+https://blog.csdn.net/fagawee/article/details/121660020
